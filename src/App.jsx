@@ -1,5 +1,15 @@
+import Body from './components/body/Body';
+import Navbar from './components/navbar/Navbar';
+import { GlobalStyles } from './styles/global-styles';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			<GlobalStyles />
+			<Navbar />
+			<Body />
+		</>
+	);
 };
 
 export default App;

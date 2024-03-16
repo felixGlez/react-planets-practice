@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 
 // ESTOS ESTILOS USARLOS SIEMPRE, ES TIPO PLANTILLA
 export const GlobalStyles = createGlobalStyle`
-    *,
+  *,
   *::after,
   *::before{
     box-sizing: border-box;
@@ -17,6 +17,9 @@ export const GlobalStyles = createGlobalStyle`
   body{
     margin: 0;
     font-family: sans-serif;
+    background-image: url(public/assets/background-stars.svg);
+    background-size: cover;
+    background-color: #070724;
   }
 
   a{
