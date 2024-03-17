@@ -1,4 +1,4 @@
-import { v4 } from 'uuid';
+import { Link } from 'react-router-dom';
 import { MENU_NAVBAR } from '../../constants/menu-navbar';
 import {
 	StyledLogo,
@@ -14,8 +14,10 @@ const Navbar = () => {
 			<StyledLogo>THE PLANETS</StyledLogo>
 			<StyledMenuContainer>
 				<StyledMenu>
-					{MENU_NAVBAR.map(element => (
-						<StyledMenuItem key={v4()}>{element.toUpperCase()}</StyledMenuItem>
+					{MENU_NAVBAR.map(menuItem => (
+						<StyledMenuItem key={menuItem.id}>
+							<Link to={menuItem.path}>{menuItem.name}</Link>
+						</StyledMenuItem>
 					))}
 				</StyledMenu>
 			</StyledMenuContainer>

@@ -51,7 +51,7 @@ const StyledMenuItem = styled.li`
 	font-weight: 600;
 	letter-spacing: 1px;
 	opacity: 0.7;
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 `;
 
 export {
