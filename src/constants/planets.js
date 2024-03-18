@@ -34,8 +34,7 @@ const MERCURY = {
 			title: 'AVERAGE TEMP.',
 			stat: '430ºC'
 		}
-	],
-	$planetColor: '#419EBB'
+	]
 };
 
 const VENUS = {
@@ -56,8 +55,7 @@ const VENUS = {
 		{ id: v4(), title: 'REVOLUTION TIME', stat: '224.7 DAYS' },
 		{ id: v4(), title: 'RADIUS', stat: '6,051.8 Km' },
 		{ id: v4(), title: 'AVERAGE TEMP.', stat: '471ºC' }
-	],
-	$planetColor: '#EDA249'
+	]
 };
 
 const EARTH = {
@@ -78,8 +76,7 @@ const EARTH = {
 		{ id: v4(), title: 'REVOLUTION TIME', stat: '365.26 DAYS' },
 		{ id: v4(), title: 'RADIUS', stat: '6,371 KM' },
 		{ id: v4(), title: 'AVERAGE TEMP.', stat: '16ºC' }
-	],
-	$planetColor: '#6F2ED6'
+	]
 };
 
 const MARS = {
@@ -100,8 +97,7 @@ const MARS = {
 		{ id: v4(), title: 'REVOLUTION TIME', stat: '1.88 YEARS' },
 		{ id: v4(), title: 'RADIUS', stat: '3,389.5 KM' },
 		{ id: v4(), title: 'AVERAGE TEMP.', stat: '−28°C' }
-	],
-	$planetColor: '#D14C32'
+	]
 };
 
 const JUPITER = {
@@ -122,8 +118,7 @@ const JUPITER = {
 		{ id: v4(), title: 'REVOLUTION TIME', stat: '11.86 YEARS' },
 		{ id: v4(), title: 'RADIUS', stat: '69,911 KM' },
 		{ id: v4(), title: 'AVERAGE TEMP.', stat: '-108°C' }
-	],
-	$planetColor: '#D83A34'
+	]
 };
 
 const SATURN = {
@@ -144,8 +139,7 @@ const SATURN = {
 		{ id: v4(), title: 'REVOLUTION TIME', stat: '29.46 YEARS' },
 		{ id: v4(), title: 'RADIUS', stat: '58,232 KM' },
 		{ id: v4(), title: 'AVERAGE TEMP.', stat: '-138°C' }
-	],
-	$planetColor: '#CD5120'
+	]
 };
 
 const URANUS = {
@@ -166,8 +160,7 @@ const URANUS = {
 		{ id: v4(), title: 'REVOLUTION TIME', stat: '84 YEARS' },
 		{ id: v4(), title: 'RADIUS', stat: '25,362 KM' },
 		{ id: v4(), title: 'AVERAGE TEMP.', stat: '-195°C' }
-	],
-	$planetColor: '#1EC2A4'
+	]
 };
 
 const NEPTUNE = {
@@ -188,8 +181,7 @@ const NEPTUNE = {
 		{ id: v4(), title: 'REVOLUTION TIME', stat: '164.79 YEARS' },
 		{ id: v4(), title: 'RADIUS', stat: '24,622 KM' },
 		{ id: v4(), title: 'AVERAGE TEMP.', stat: '-201°C' }
-	],
-	$planetColor: '#2D68F0'
+	]
 };
 
 export const PLANETS_INFO = {

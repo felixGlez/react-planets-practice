@@ -16,6 +16,7 @@ import {
 	StyledTab,
 	StyledTabsContainer
 } from './styles';
+import { PLANETS_COLORS } from '../styles/colors';
 
 const Planet = ({ planet }) => {
 	const [tabActive, setTabActive] = useState(0);
@@ -43,7 +44,7 @@ const Planet = ({ planet }) => {
 							<StyledTab
 								key={menuItem.id}
 								onClick={() => setTabActive(index)}
-								$planetColor={PLANETS_INFO[planet].$planetColor}
+								$planetColor={PLANETS_COLORS[planet]}
 								$isActive={index === tabActive}
 							>
 								<p>{menuItem.name}</p>
