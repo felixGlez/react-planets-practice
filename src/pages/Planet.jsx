@@ -4,10 +4,13 @@ import { PLANETS_INFO } from '../constants/planets';
 import {
 	StyledContainer,
 	StyledImg,
+	StyledImgGeology,
 	StyledPlanetImg,
 	StyledPlanetInfo,
 	StyledPlanetName,
 	StyledPlanetText,
+	StyledStatStat,
+	StyledStatTitle,
 	StyledStats,
 	StyledStatsContainer,
 	StyledTab,
@@ -22,6 +25,9 @@ const Planet = ({ planet }) => {
 			<StyledContainer>
 				<StyledPlanetImg>
 					<StyledImg src={PLANETS_INFO[planet].images[tabActive]} />
+					<StyledImgGeology
+						src={tabActive === 2 ? PLANETS_INFO[planet].images[3] : undefined}
+					/>
 				</StyledPlanetImg>
 				<StyledPlanetInfo>
 					<StyledPlanetName>{planet}</StyledPlanetName>
@@ -49,7 +55,8 @@ const Planet = ({ planet }) => {
 			<StyledStatsContainer>
 				{PLANETS_INFO[planet].stats.map(stat => (
 					<StyledStats key={stat.id}>
-						<p>{stat.title}</p>
+						<StyledStatTitle>{stat.title}</StyledStatTitle>
+						<StyledStatStat>{stat.stat}</StyledStatStat>
 					</StyledStats>
 				))}
 			</StyledStatsContainer>

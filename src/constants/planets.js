@@ -52,22 +52,10 @@ const VENUS = {
 		'Much of the Venusian surface appears to have been shaped by volcanic activity. Venus has several times as many volcanoes as Earth, and it has 167 large volcanoes that are over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island of Hawaii.'
 	],
 	stats: [
-		{
-			title: 'Rotation Time',
-			stat: '243 DAYS'
-		},
-		{
-			title: 'REVOLUTION TIME',
-			stat: '224.7 DAYS'
-		},
-		{
-			title: 'RADIUS',
-			stat: '6,051.8 Km'
-		},
-		{
-			title: 'AVERAGE TEMP.',
-			stat: '471ºC'
-		}
+		{ id: v4(), title: 'Rotation Time', stat: '243 DAYS' },
+		{ id: v4(), title: 'REVOLUTION TIME', stat: '224.7 DAYS' },
+		{ id: v4(), title: 'RADIUS', stat: '6,051.8 Km' },
+		{ id: v4(), title: 'AVERAGE TEMP.', stat: '471ºC' }
 	],
 	$planetColor: '#EDA249'
 };
@@ -86,22 +74,10 @@ const EARTH = {
 		'The total surface area of Earth is about 510 million km2. The continental crust consists of lower density material such as the igneous rocks granite and andesite. Less common is basalt, a denser volcanic rock that is the primary constituent of the ocean floors.'
 	],
 	stats: [
-		{
-			title: 'ROTATION TIME',
-			stat: '0.99 DAYS'
-		},
-		{
-			title: 'REVOLUTION TIME',
-			stat: '365.26 DAYS'
-		},
-		{
-			title: 'RADIUS',
-			stat: '6,371 KM'
-		},
-		{
-			title: 'AVERAGE TEMP.',
-			stat: '16ºC'
-		}
+		{ id: v4(), title: 'ROTATION TIME', stat: '0.99 DAYS' },
+		{ id: v4(), title: 'REVOLUTION TIME', stat: '365.26 DAYS' },
+		{ id: v4(), title: 'RADIUS', stat: '6,371 KM' },
+		{ id: v4(), title: 'AVERAGE TEMP.', stat: '16ºC' }
 	],
 	$planetColor: '#6F2ED6'
 };
@@ -120,22 +96,10 @@ const MARS = {
 		'Mars is a terrestrial planet whose surface consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The surface is primarily composed of tholeiitic basalt, although parts are more silica-rich than typical basalt.'
 	],
 	stats: [
-		{
-			title: 'ROTATION TIME',
-			stat: '1.03 DAYS'
-		},
-		{
-			title: 'REVOLUTION TIME',
-			stat: '1.88 YEARS'
-		},
-		{
-			title: 'RADIUS',
-			stat: '3,389.5 KM'
-		},
-		{
-			title: 'AVERAGE TEMP.',
-			stat: '−28°C'
-		}
+		{ id: v4(), title: 'ROTATION TIME', stat: '1.03 DAYS' },
+		{ id: v4(), title: 'REVOLUTION TIME', stat: '1.88 YEARS' },
+		{ id: v4(), title: 'RADIUS', stat: '3,389.5 KM' },
+		{ id: v4(), title: 'AVERAGE TEMP.', stat: '−28°C' }
 	],
 	$planetColor: '#D14C32'
 };
@@ -154,22 +118,10 @@ const JUPITER = {
 		'The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed since at least 1831, and possibly since 1665.'
 	],
 	stats: [
-		{
-			title: 'ROTATION TIME',
-			stat: '9.93 HOURS'
-		},
-		{
-			title: 'REVOLUTION TIME',
-			stat: '11.86 YEARS'
-		},
-		{
-			title: 'RADIUS',
-			stat: '69,911 KM'
-		},
-		{
-			title: 'AVERAGE TEMP.',
-			stat: '-108°C'
-		}
+		{ id: v4(), title: 'ROTATION TIME', stat: '9.93 HOURS' },
+		{ id: v4(), title: 'REVOLUTION TIME', stat: '11.86 YEARS' },
+		{ id: v4(), title: 'RADIUS', stat: '69,911 KM' },
+		{ id: v4(), title: 'AVERAGE TEMP.', stat: '-108°C' }
 	],
 	$planetColor: '#D83A34'
 };
@@ -188,22 +140,10 @@ const SATURN = {
 		"The outer atmosphere of Saturn contains 96.3% molecular hydrogen and 3.25% helium by volume. The planet's most famous feature is its prominent ring system, which is composed mostly of ice particles with a smaller amount of rocky debris and dust."
 	],
 	stats: [
-		{
-			title: 'ROTATION TIME',
-			stat: '10.8 HOURS'
-		},
-		{
-			title: 'REVOLUTION TIME',
-			stat: '29.46 YEARS'
-		},
-		{
-			title: 'RADIUS',
-			stat: '58,232 KM'
-		},
-		{
-			title: 'AVERAGE TEMP.',
-			stat: '-138°C'
-		}
+		{ id: v4(), title: 'ROTATION TIME', stat: '10.8 HOURS' },
+		{ id: v4(), title: 'REVOLUTION TIME', stat: '29.46 YEARS' },
+		{ id: v4(), title: 'RADIUS', stat: '58,232 KM' },
+		{ id: v4(), title: 'AVERAGE TEMP.', stat: '-138°C' }
 	],
 	$planetColor: '#CD5120'
 };
@@ -222,22 +162,10 @@ const URANUS = {
 		"The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere."
 	],
 	stats: [
-		{
-			title: 'ROTATION TIME',
-			stat: '17.2 HOURS'
-		},
-		{
-			title: 'REVOLUTION TIME',
-			stat: '84 YEARS'
-		},
-		{
-			title: 'RADIUS',
-			stat: '25,362 KM'
-		},
-		{
-			title: 'AVERAGE TEMP.',
-			stat: '-195°C'
-		}
+		{ id: v4(), title: 'ROTATION TIME', stat: '17.2 HOURS' },
+		{ id: v4(), title: 'REVOLUTION TIME', stat: '84 YEARS' },
+		{ id: v4(), title: 'RADIUS', stat: '25,362 KM' },
+		{ id: v4(), title: 'AVERAGE TEMP.', stat: '-195°C' }
 	],
 	$planetColor: '#1EC2A4'
 };
@@ -256,22 +184,10 @@ const NEPTUNE = {
 		"Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum."
 	],
 	stats: [
-		{
-			title: 'ROTATION TIME',
-			stat: '16.08 HOURS'
-		},
-		{
-			title: 'REVOLUTION TIME',
-			stat: '164.79 YEARS'
-		},
-		{
-			title: 'RADIUS',
-			stat: '24,622 KM'
-		},
-		{
-			title: 'AVERAGE TEMP.',
-			stat: '-201°C'
-		}
+		{ id: v4(), title: 'ROTATION TIME', stat: '16.08 HOURS' },
+		{ id: v4(), title: 'REVOLUTION TIME', stat: '164.79 YEARS' },
+		{ id: v4(), title: 'RADIUS', stat: '24,622 KM' },
+		{ id: v4(), title: 'AVERAGE TEMP.', stat: '-201°C' }
 	],
 	$planetColor: '#2D68F0'
 };
